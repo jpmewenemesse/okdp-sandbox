@@ -34,6 +34,13 @@ hubble:
     enabled: true
   ui:
     enabled: true
+    frontend:
+      server:
+        ipv6:
+          # The sandbox is IPv4-only. The default chart value is set to true
+          # frontend bind [::]:8081 and CrashLoopBackOff on hots without an
+          # IPv6 stack in the pod netns
+          enabled: false
 
 # Kind single-node sizing/defaults
 operator:
