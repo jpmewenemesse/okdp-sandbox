@@ -179,6 +179,8 @@ spec:
     interval: 30m
     timeout: 10m
   parameters:
+    storage: demo-storage
+    s3SecretRef: creds-examples-s3
     db: demo-db-airflow
     metadataSecret: creds-airflow-db
     oidcRoleMapping:
