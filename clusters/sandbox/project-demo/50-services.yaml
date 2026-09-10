@@ -214,7 +214,7 @@ spec:
   description: JupyterHub of the demo project
   package:
     repository: quay.io/okdp/platform-packages/jupyterhub
-    tag: 4.3.3-p06
+    tag: 4.3.3-p07
     interval: 30m
     timeout: 10m
   parameters:
