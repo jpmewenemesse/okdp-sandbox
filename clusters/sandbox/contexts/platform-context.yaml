@@ -83,7 +83,7 @@ spec:
         - title: Notebooks
           icon: pi-book
           services:
-            - { name: jupyterhub, versions: ["4.3.3-p06"], default: "4.3.3-p06", description: JupyterHub }
+            - { name: jupyterhub, versions: ["4.3.3-p07"], default: "4.3.3-p07", description: JupyterHub }
         - title: Data Engineering
           icon: pi-cog
           services:
